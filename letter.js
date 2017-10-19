@@ -1,3 +1,6 @@
+
+exports.letter = letter;
+
 //This function and file will determine if a letter is shown as an underscore or a letter
 
 function letter(value){
@@ -15,4 +18,3 @@ letter.prototype.printInfo = function(){
     return "_ ";
 }
 
-exports.letter = letter;

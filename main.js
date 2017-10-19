@@ -26,7 +26,7 @@ function makeGuess(){
         message: "Please enter a letter",
         // validate: function(str){
         //     if (str.length != 1) return false;
-        //     var reject = new reject("^[a-zA-Z\s]{1,1}$");
+        //     var reject = new Reject("^[a-zA-Z\s]{1,1}$");
         //     return reject.test(str);
         // }
     }]).then(function(letterInput){
