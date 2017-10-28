@@ -1,20 +1,15 @@
 # Advanced-JS-Constructor-Hangman
 
-Instructions
+### This is a CLI app using Node.js and the inquirer npm package. Two main constructors are used: word and letter.
 
-The completed game should meet the following criteria:
+##### Initializing node main.js in the command line prompts the user with the word to guess and to input a letter.
 
-1. The completed game should be able to receive user input using the `inquirer` or `prompt` npm packages.
+![Screenshot](/PNGs/Capture1.PNG)
 
-2. Feel free to use as many different types of constructor functions as you are able to, but at a minimum, you must create the following constructor functions:
+##### After the user guesses a letter they are updated with their remaining number of guesses, and the remaining letters to be guessed. 
 
-  * **Word**: Used to create an object representing the current word the user is attempting to guess. This should contain word specific logic and data.
+![Screenshot](/PNGs/Capture2.PNG)
 
-  * **Letter**: Used for each letter in the current word. Each letter object should either display an underlying character, or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. This should contain letter specific logic and data.
+##### Once the user has successfully guessed the correct letters completing the word they are shown "Correct! The word was ___" and the game ends.
 
-3. You must keep track of the user's remaining guesses and prompt the user if they would like to end the game if none remain.
-
-4. Each constructor function should be in it's own file and be exported and required wherever needed.
-
-5. Look into [function prototypes](https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/) and use them for a few of your constructor's methods.
-
+![Screenshot](/PNGs/Capture3.PNG)
